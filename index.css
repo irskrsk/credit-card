@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(230, 233, 235);
+}
+
+.card{
+    background-image: url(icons/icon.jpg);
+    width: 500px;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    min-width: 500px;
+}
+.line{
+    position: absolute;
+    background-color: rgb(211, 109, 36);
+    width: 80%;
+    top: 20px;
+    left: -20px;
+    color: white;
+    padding: 7px 15px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+form{
+   padding: 80px 20px 50px;
+}
+
+label p{
+    margin-bottom: 7px;
+    color: rgb(63, 63, 63);
+    font-size: 14px;
+}
+
+form div{
+    margin-bottom: 10px;
+}
+
+.card-inform{
+    display: flex;
+    align-items: flex-end;
+}
+
+.card-inform input{
+    width: 70px;
+    margin-right: 10px;
+}
+
+input{
+    width: 230px;
+    background-color: rgba(240, 241, 255, 0.123);
+    outline: none;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid rgb(49, 48, 48);
+}
+
+
+
